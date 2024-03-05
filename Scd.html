@@ -5,9 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="C:\Users\AAAAA\OneDrive\Desktop\fifth sem project\Scd.css" />
+    
+    <link rel="stylesheet" href="C:\Users\ratho\OneDrive\Desktop\Scd_Assignment_5thsem\Scd.css">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      
     />
     <title>Make a Website Using HTML/CSS</title>
   </head>
@@ -47,7 +50,7 @@
         <h3 class="bg-dark-line"><span>About Us</span></h3>
         <p class="lead">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi beatae nobis officiis illum
-          quo eum deserunt fuga numquam! Provident sint iusto, doloremque quae consectetur ipsa
+          quo eum deserunt fuga numquam! Providnt sint iusto, doloremque quae consectetur ipsa
           harum minus enim in possimus. Lorem ipsum dolor sit amet consectetur adipisicing elit.
           Quasi beatae nobis officiis illum quo eum deserunt fuga numquam! Provident sint iusto,
           doloremque quae consectetur ipsa harum minus enim in possimus. Lorem ipsum dolor sit amet
@@ -138,38 +141,7 @@
       </div>
     </div>
 
-    <!-- Contact -->
-    <div id="contact">
-      <div class="container">
-        <h3><span>Contact Us</span></h3>
-        <div class="contact-form">
-          <form action="process.php">
-            <div class="form-group">
-              <label for="name">Name</label>
-              <input type="text" name="name" />
-            </div>
-            <div class="form-group">
-              <label for="email">Email</label>
-              <input type="email" name="name" />
-            </div>
-            <div class="form-group">
-              <label for="message">Message</label>
-              <textarea name="message" id="message" cols="30" rows="10"></textarea>
-            </div>
-            <button type="button" class="btn">Submit</button>
-          </form>
-        </div>
-      </div>
-    </div>
-    <footer id="main-footer">
-      <div class="container">
-        <p>
-          The Hub of Technology Design by
-          <a href="https://onlineittuts.com"> OnlineITtuts </a> &copy 2022
-        </p>
-      </div>
-    </footer>
-  </body>
+    
 </html>
 <!DOCTYPE html>
 <html lang="en">
@@ -219,3 +191,30 @@
     <script src="js/main.js"></script>
   </body>
 </html>
+<div id='{tabname}_{extra_networks_tabname}_pane' class='extra-network-pane'>
+  <div class="extra-network-control">
+  <div class="extra-network-control" id="{tabname}_{extra_networks_tabname}_controls" style="display:none" >
+      <div class="extra-network-control--search">
+          <input
+              id="{tabname}_{extra_networks_tabname}_extra_search"
+              class="extra-network-control--search-text"
+              type="search"
+              placeholder="Filter files"
+          >
+      </div>
+      <div 
+          id="{tabname}_{extra_networks_tabname}_extra_sort"
+          class="extra-network-control--sort"
+          data-sortmode="{data_sortmode}"
+          data-sortkey="{data_sortkey}"
+          title="Sort by path"
+          onclick="extraNetworksControlSortOnClick(event, '{tabname}', '{extra_networks_tabname}');"
+      >
+          <i class="extra-network-control--sort-icon"></i>
+      </div>
+      <div
+          id="{tabname}_{extra_networks_tabname}_extra_sort_dir"
+          class="extra-network-control--sort-dir"
+          data-sortdir="{data_sortdir}"
+          title="Sort ascending"
+          
